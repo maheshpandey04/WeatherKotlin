@@ -47,7 +47,6 @@ class MainActivity : AppCompatActivity() {
             Request.Method.GET, url,null,
             Response.Listener { response ->
                 setValues(response)
-                Toast.makeText(this,response.toString(),Toast.LENGTH_LONG).show()
                 // Display the first 500 characters of the response string.
 
             },
